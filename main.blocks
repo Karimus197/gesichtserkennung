@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="s0}g:({L6sX4~P^sA_OF" x="0" y="0"><statement name="HANDLER"><block type="huskylens_initI2c" id="e3`!*ZF`CakCPU4B;b]z"><next><block type="huskylens_initMode" id="OA]v|xvS!4Hbm[b=_HWq"><field name="mode">protocolAlgorithm.ALGORITHM_FACE_RECOGNITION</field></block></next></block></statement></block><block type="device_forever" id="SA@Kj18R8[5zD#oa@Gl4" x="6" y="191"><statement name="HANDLER"><block type="huskylens_request" id="GA0_~w^DLkFk5-=cTq6:"><next><block type="controls_if" id="F:P*d[Hv8?rvXps{YW6("><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isLearned" id="fm~OFBftvLxmb$92JpOG"><value name="id"><shadow type="math_number" id="w8!FnbJeIf`|s/M6+K=8"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="controls_if" id="Tm[7!;5ipr/=WjlZQvyo"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isAppear_s" id="KRlCcw#O*_mrCJ{z?R_4"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field></block></value><statement name="DO0"><block type="controls_if" id="qBys9sAT[7qm]j#c+7z|"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isAppear" id="Dm/MTMvDhV0t:J~Vm*gw"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="W.Wg^M?s5]d3*+:i{/c!"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=xjUQ+./^#;Pm(B6X5;U"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_pause" id="Of]kQPelD*:E?)rZJ=LG"><value name="pause"><shadow type="timePicker" id="6mQr-ibD2DAqfhX[N`Zj"><field name="ms">2000</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="zkY#|X$V$ZeqV!A-]]g;"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isAppear" id="W`4ak}lzZKXbhD?COtb|"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="mGL1{*:gYV9`[@Y=@$EE"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="54jQXHD}*[*pjA=d/c8L"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_pause" id="3`$h]+4vn0wz*+[lL@{W"><value name="pause"><shadow type="timePicker" id="?JO-)NpfU)XQt(Gf,t[n"><field name="ms">2000</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="fEc6=yPP,~BPA#_?dIVu"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isAppear" id="{jV;VL_(Ho6KJ8iZx;_9"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="rzV+H~%XV%Mk[BU:~Y58"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="+$5jT$!NcKTLz+Wb~YbK"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_pause" id="oOzlB77w*a{z2.^%u6^J"><value name="pause"><shadow type="timePicker" id="_Vo/RVxeE0bjkGY~73Nv"><field name="ms">2000</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="PEp.)6jd8^LStw}uti|4"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="i8tU8:I?ti8OvZDmO+AF"><value name="pause"><shadow type="timePicker" id="L5Gsj:!tcK4B5LA-22C*"><field name="ms">100</field></shadow></value></block></next></block></statement></block></next></block></next></block></statement></block></statement></block></next></block></statement></block></xml>
